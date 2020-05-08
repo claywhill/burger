@@ -1,7 +1,5 @@
 var express = require("express");
-
 var router = express.Router();
-
 var burger = require("../models/burger");
 
 router.get("/", function(req, res) {
@@ -16,7 +14,7 @@ router.get("/", function(req, res) {
 
 router.post("/api/burgers", function(req, res) {
     burger.create([
-        "name", "devoured"
+        "burger_name", "devoured"
     ], [
         req.body.name, req.body.devoured
     ], function(result) {
