@@ -1,0 +1,33 @@
+body {
+    background-image: url(burger_background.png);
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: red;
+}
+
+h1 {
+    color: rgb(21, 255, 0);
+}
+
+h2 {
+    color: rgb(21, 255, 0);
+}
+
+label {
+    color: orange;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+li {
+    color: orange;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+button {
+    background-color: peru;
+    border-color: black;
+}
